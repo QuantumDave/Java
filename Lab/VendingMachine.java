@@ -8,7 +8,6 @@ public class VendingMachine{
 			if (0 > amount || amount <= 99){break;}
 		}
 			
-		
 		int quarters,dimes,nickels,pennies;
 		quarters = amount / 25;
 		amount = amount % 25;
